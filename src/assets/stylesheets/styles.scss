@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+// Color reference https://flatuicolors.com/
+
+$blue:                #446CB3;  /* SAN MARINO */
+$blue-100:            #757D75;  /* BLUE 100 */
+$indigo:              #264348;  /*INDOGO*/
+$purple:              #947CB0;  /* LAVENDER PURPLE */
+$pink:                #f8a5c2;  /* CABARET */
+$red:                 #e66767;  /* TALL POPPY */
+$orange:              #e15f41;  /* DARK ORANGE 600*/
+$yellow:              #f5cd79;  /* OSAFFRON */
+$green:               #20bf6b;  /* Green 300 */
+$teal:                #4ECDC4;  /* MEDIUM TURQUOISE */
+$cyan:                #3dc1d3;  /* DODGER BLUE */
+$aqua:                #A2DED0;  /* AQUA ISLAND*/
+
+
+$swanwhite:            #F2F1EF;
+$hotstone:             #D2D7D3;
+$crocodiletoth:        #757D75;
+$greyporcelain:        #84817a;
+
+
+$brown-100:           #D7CCC8;
+$brown-200:           #BCAAA4;
+$brown-300:           #A1887F;
+$brown-400:           #8D6E63;
+$brown-500:           #795548;
+$brown-600:           #6D4C41;
+$brown-700:           #5D4037;
+$brown-800:           #4E342E;
+$brown-900:           #3E2723;
+
+$white:               #fff;
+$gray-100:            #F4F7F6;
+$gray-200:            #eee;
+$gray-300:            #E0E0E0;
+$gray-400:            #BDBDBD;
+$gray-500:            #808080;
+$gray-600:            #606060;
+$gray-700:            #424242;
+$gray-800:            #222;
+$gray-900:            #212121;
+$black:               #121212;
+
+$primary:             $blue;
+$secondary:           $swanwhite;
+$success:             $green;
+$info:                $blue-100;
+$warning:             $yellow;
+$accent:              $orange;
+$danger:              $red;
+$light:               $gray-100;
+$muted:               $gray-500;
+$dark:                $gray-800;
+
+//Font
+$roboto: "Roboto", sans-serif;
+
+body {
+	background: $light;
+	font-family: $roboto;
+}
